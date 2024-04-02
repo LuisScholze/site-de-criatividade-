@@ -89,7 +89,6 @@ body {
   width: 100%;
   font-size: 32px;
 }
-<h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
 
 .titulo-principal span {
   color: var(--verde);
@@ -112,7 +111,7 @@ body {
   border-bottom: 4px solid var(--botao-ativo); 
   border-left: 2px solid var(--botao-ativo); 
   border-right: 2px solid var(--botao-ativo); 
-  border-top: none;
+  border-top: none;}
 
   .botoes {
     display: block;
@@ -127,16 +126,8 @@ body {
       border-radius: 40px 40px 0 0;
   }
   
-  @media screen and (min-width: 768px) {
-      .botoes {
-          display: flex;
-      }
   
-      .botao:first-child {
-          border-radius: 40px 0 0 0;
-      }
-  
-      .botao:last-child {
-          border-radius: 0 40px 0 0;
-      }
+  .botao:last-child {
+    border-radius: 0 40px 0 0;
+}
   }
