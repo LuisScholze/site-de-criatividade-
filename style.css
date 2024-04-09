@@ -94,3 +94,8 @@ body {
 .titulo-principal span {
   color: var(--verde);
 }
+
+.contador{
+  font-size: 20px;
+  text-align: center;
+}
